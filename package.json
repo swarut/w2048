@@ -1,0 +1,29 @@
+{
+  "name": "w2048",
+  "version": "0.0.1",
+  "description": "2048",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets env src -d ./ --ignore test/index.test.js",
+    "dev": "babel --presets env src -d ./ --watch --ignore src/index.test.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swarut/w2048.git"
+  },
+  "keywords": [
+    "2048",
+    "game"
+  ],
+  "author": "Warut Surapat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swarut/w2048/issues"
+  },
+  "homepage": "https://github.com/swarut/w2048#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
