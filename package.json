@@ -22,8 +22,11 @@
     "url": "https://github.com/swarut/w2048/issues"
   },
   "homepage": "https://github.com/swarut/w2048#readme",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
   }
 }
