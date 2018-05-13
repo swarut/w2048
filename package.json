@@ -1,8 +1,8 @@
 {
   "name": "w2048",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "2048",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "babel --presets env src -d ./ --ignore test/index.test.js",
     "dev": "babel --presets env src -d ./ --watch --ignore src/index.test.js",
