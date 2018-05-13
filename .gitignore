@@ -1,6 +1,9 @@
-node_modules
-coverage
+.DS_Store
 *.log
-lib
+node_modules
+.idea
 dist
+lib
 es
+coverage
+build
